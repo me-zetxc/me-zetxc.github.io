@@ -1,0 +1,32 @@
+<div class="row d-flex ">
+                    <div class="col-lg-1 offset-1"></div>
+                    <div class="col-lg-3 d-flex flex-column">
+                        <input class="footer__input-text" type="text">
+                        <input class="footer__input-text" type="text">
+                        <input class="footer__input-text" type="text">
+                        <input class="footer__input-checkbox" type="checkbox" name="" id="">
+                    </div>
+                    <div class="col-lg-1 offset-1"></div>
+                    <div class="col-lg-4 d-flex flex-column ">
+                        <label class="footer__input-message" type="text" name="" id=""></label>
+                        <div class="row">
+                            <div class="col-lg-5 mt-3">
+                                <button class="footer__btn">Заказать звонок</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                   <!-- <div class="footer">
+        <div class="container-fluid footer__image">
+            <div class="container">
+                <div class="row text-primary">
+                    <div class="col-1 offset-1"></div>
+                    <div class="col-10 my-5">
+                        <h2>Остались вопросы? Вы можете задать их сейчас!</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->

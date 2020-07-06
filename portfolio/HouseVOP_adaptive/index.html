@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/wow.min.js"></script>
+    <title>HouseVOP</title>
+</head>
+
+<body>
+    <!--HEADER-->
+    <div class="header">
+        <div class="container">
+            <div class="header__navbar">
+                <div class="header__logo-left">
+                    <img class="header__logo-image animated backInDown" src="./images/first-screen__logo.png" alt="">
+                </div>
+                <div class="header__navbar-right">
+                    <ul class="header__navbar-list animated backInDown">
+                        <li class="header__navbar-item">О комплексе</li>
+                        <li class="header__navbar-item">Район</li>
+                        <li class="header__navbar-item">Каталог квартир</li>
+                        <li class="header__navbar-item">Ипотека</li>
+                        <li class="header__navbar-item">Контакты</li>
+                    </ul>
+
+                </div>
+                <div class="burger-menu">
+                    <div class="burger-stick"></div>
+                    <div class="burger-stick"></div>
+                    <div class="burger-stick"></div>
+                </div>
+            </div>
+            <div class="header__welcome
+            ">
+                <div class="header__title ">
+                    <h3 class="header__title-text animated backInUp">Жилой комплекс <br> в историческом месте</h3>
+                    <img id="mouse" class="header__title-mouse animated heartBeat" src="./images/mouse.png" alt="">
+                </div>
+                <div class="header__info animated backInUp
+                ">
+                    <div class="header__address">
+                        <img src="./images/placeholder.png" alt=""> <span class="header__desc-text">Наб. реки Фонтанки 10-15</span>
+                    </div>
+                    <div class="header__number">
+                        <img src="./images/phone-call.png" id="phone" alt=""> <span class="header__desc-text">8 (812) 123-45-67</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="container">
+            <div class="main__conditions">
+                <ul class="main__conditions-list wow bounceInUp">
+                    <li class="main__conditions-item" id="park"><img src="./images/bench.png" alt="">
+                        <p>Рядом исторические <br> парки и скверы</p>
+                    </li>
+                    <li class="main__conditions-item"><img src="./images/building.png" alt="">
+                        <p>Полностью <br> обустроенный
+                        </p>
+                    </li>
+                    <li class="main__conditions-item"><img src="./images/fountain.png" alt="">
+                        <p>10 фонтанов <br> на территории</p>
+                    </li>
+                    <li class="main__conditions-item"><img src="./images/bicycle.png" alt="">
+                        <p>6 км <br> велодорожек
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <!--Наши квартиры-->
+            <h3 class="main__floors-title">
+                Наши квартиры
+            </h3>
+            <div class="main__floors">
+                <div class="main__floors-item">
+                    <span class="main_floors-desc ">Лофт - 3 этажа</span>
+                    <img src="./images/floor.png" alt="" class="main__floors-picture ">
+
+                </div>
+                <div class="main__floors-item">
+                    <span class="main_floors-desc ">Лофт - 2 этажа</span>
+                    <img src="./images/floor_2.png" alt="" class="main__floors-picture ">
+                </div>
+
+                <div class="main__floors-item">
+                    <span class="main_floors-desc ">Лофт - 3 этажа</span>
+                    <img src="./images/floor.png" alt="" class="main__floors-picture ">
+
+                </div>
+
+                <div class="main__floors-item">
+                    <span class="main_floors-desc ">Лофт- 2 этажа</span>
+                    <img src="./images/floor_2.png" alt="" class="main__floors-picture ">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--MAIN-->
+    <!--Footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer__items">
+                <div class="footer__left">
+                    <h4 class="footer__left-title wow shakeY
+                    ">
+                        Хотите посмотреть?
+                    </h4>
+                    <p class="footer__left-desc">
+                        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя
+                        Lorem Ipsum для распечатки образцов.
+                    </p>
+                </div>
+                <div class="footer__right">
+                    <form action="" class="footer__form">
+                        <ul class="footer__right-list-top">
+                            <li class="footer__right-item-top"><input required placeholder="Ваше имя" type="text" required minlength="1" name="Ваше имя" id="yourName"></li>
+                            <li class="footer__right-item-top"><input required placeholder="Ваш номер" type="text" required minlength="6" maxlength="20" name="Ваш телефон" id="yourPhone"></li>
+
+                        </ul>
+                        <ul class="footer__right-list-bot">
+                            <li class="footer__right-item-bot">
+                                <p class="footer__right-desc">*Мы никому не передаем ваши данные. <br> И не сохраняем ваш номер в базу.</p>
+                            </li>
+                            <li class="footer__right-item-bot"><button id="button">Посмотреть район</button></li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

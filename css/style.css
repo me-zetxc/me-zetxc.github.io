@@ -1,0 +1,215 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    color: #f1f1f1;
+}
+
+button {
+    border: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header__background {
+    background: url("./background.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.v-card-holder {
+    /* transform: translateY(0) scale(1); */
+    opacity: 1;
+    border: 5px;
+    z-index: 1;
+    border-color: black;
+    visibility: visible;
+}
+
+.header__info {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    background: #06a763;
+}
+
+.v-card-holder-item {
+    margin-left: 10px;
+}
+
+.v-card-holder__social-item {
+    margin-top: 10px;
+    margin-right: 15px;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+#facebook {
+    background-color: #3f51b5;
+}
+
+#telegram {
+    background-color: #2fa3d6;
+}
+
+#linkedin {
+    background-color: #1685b0;
+}
+
+#instagram {
+    background-color: #bd3389;
+}
+
+.v-card-holder__photo {
+    width: 150%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header__about-me {
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    margin-top: 50px;
+    background: #f1f1f1;
+}
+
+.header__about-me-downloadCV {
+    background-color: #06a763;
+    width: 40%;
+    color: white;
+    height: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header__about-me-ContactMe {
+    height: 50px;
+    background-color: #06a763;
+    width: 40%;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header__about-me-ContactMe-btn,
+.header__about-me-downloadCV-btn {
+    background-color: #06a763;
+}
+
+.skills {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #06a763;
+    padding-bottom: 25px;
+}
+
+.html__percentage {
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right, white 70%, #05985a 30%)
+}
+
+.CSS__percentage {
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right, white 80%, #05985a 20%)
+}
+
+.jQuery__percentage {
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right, white 10%, #05985a 90%)
+}
+
+.english__percentage {
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right, white 70%, #05985a 30%)
+}
+
+.german__percentage {
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right, white 85%, #05985a 15%)
+}
+
+.russian__percentage {
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right, white 95%, #05985a 5%)
+}
+
+.kyrgyz__percentage {
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right, white 60%, #05985a 40%)
+}
+
+.photoshop__percentage {
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right, white 60%, #05985a 40%)
+}
+
+.vscode__percentage {
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right, white 80%, #05985a 20%)
+}
+
+.audition__percentage {
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right, white 60%, #05985a 40%)
+}
+
+
+/* .footer__contact {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+} */
+
+.footer__contact-input {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer__send-button {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #06a763;
+    padding: 0 15px;
+    color: white;
+}
+
+.footer__input {
+    border: none;
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: solid #8d878738;
+}
+
+.footer__contact-video {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width:992px) {
+    .v-card-holder__photo {
+        width: 70%;
+        border-radius: 50%;
+        margin-bottom: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+}
